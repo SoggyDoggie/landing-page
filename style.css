@@ -1,6 +1,8 @@
 body {
     display:flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
 }
 
 .header {
@@ -30,13 +32,39 @@ a{
 
 .top-main {
     display:flex;
-    gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .top-main-text {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex:1;
 
 }
-.top-main-image {
 
+.header{
+    flex-wrap: wrap;
+}
+
+.descriptor {
+    flex-wrap: wrap;
+}
+
+.top-main-image {
+    margin-right:auto;
+    flex:1;
+}
+
+h4 {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
+.top-main-image > h4 {
+    align-self: center;
+    text-align: center;
 }
