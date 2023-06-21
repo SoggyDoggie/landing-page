@@ -7,9 +7,9 @@ body {
     display:flex;
     padding: 10px;
     justify-content:space-around;
+    justify-self: flex-start;
 
 }
-
 
 .header-links {
     display:flex;
@@ -26,4 +26,17 @@ a{
     margin:0;
     padding:0;
     text-decoration: none;
+}
+
+.top-main {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.top-main-text {
+
+}
+.top-main-image {
+
 }
