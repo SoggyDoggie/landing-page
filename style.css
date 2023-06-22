@@ -108,3 +108,8 @@ p {
     padding:0;
 }
 
+.info {
+    display:flex;
+    padding: 10px;
+    justify-self: center;
+}
