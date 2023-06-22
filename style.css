@@ -156,13 +156,20 @@ body {
 
 
 .quote-container{
-
+    display:flex;
+    padding: 10px;
+    justify-self: center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    flex-wrap: wrap;
 }
 
     .quote{
-
+        display: flex;
     }
 
     .credit{
-
+        display: flex;
+        text-align:end;
     }
