@@ -112,9 +112,6 @@ body {
 
 
 
-
-
-
 .info {
     display:flex;
     padding: 10px;
@@ -178,3 +175,47 @@ body {
         font-size: 26px;
         color:#1F2937
     }
+
+
+
+
+
+.action-container {
+    padding: 150px;
+}
+    .action-banner {
+        display: flex;
+        background-color: #3882f6;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        justify-content: space-around;
+    }
+        .action-text {
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+            padding:20px;
+            color: #F9FAF8;
+        }
+            .call-to-action{
+                font-size: 24px;
+                margin:0;
+                padding:0;
+            }
+            .sign-up{
+                font-size: 16px;
+            }
+        .second-button{
+            display: flex;
+            height:fit-content;
+            padding: 5px 18px;
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+            color: #F9FAF8;
+            background-color: #3882f6;
+            border: 3px solid #F9FAF8;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            align-self:center;
+        }
